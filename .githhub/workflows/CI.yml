@@ -2,9 +2,9 @@ name: C++ CI
 
 on:
   push:
-    branches: [template]
+    branches: [master, template]
   pull_request:
-    branches: [master]
+    branches: [master, template]
 
 jobs:
   build-and-test:
